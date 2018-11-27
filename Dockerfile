@@ -2,6 +2,7 @@ FROM cypress/browsers:chrome69
 MAINTAINER Patrick Walker <bpatrick.walker@gmail.com>
 
 # Bail out early if NODE_VERSION is not provided
+RUN npm init -y
 RUN npm i cypress
 
 # Set workdir to /etc/newman
