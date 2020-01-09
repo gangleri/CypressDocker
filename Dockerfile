@@ -1,5 +1,5 @@
 FROM cypress/browsers:chrome79
-MAINTAINER Patrick Walker <bpatrick.walker@gmail.com>
+MAINTAINER Shay Doherty <shaydmusik@gmail.com>
 
 # Bail out early if NODE_VERSION is not provided
 RUN npm init -y
