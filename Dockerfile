@@ -1,4 +1,4 @@
-FROM cypress/browsers:chrome79
+FROM cypress/browsers:chrome69
 MAINTAINER Shay Doherty <shaydmusik@gmail.com>
 
 # Bail out early if NODE_VERSION is not provided
