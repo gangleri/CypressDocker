@@ -1,4 +1,4 @@
-FROM cypress/browsers:chrome69
+FROM cypress/browsers:chrome79
 MAINTAINER Patrick Walker <bpatrick.walker@gmail.com>
 
 # Bail out early if NODE_VERSION is not provided
