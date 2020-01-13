@@ -1,4 +1,6 @@
-FROM cypress/browsers:chrome69
+FROM cypress/browsers:node13.3.0-chrome-79-ff70
+docker pull cypress/browsers:node13.3.0-chrome-79-ff70
+
 MAINTAINER Shay Doherty <shaydmusik@gmail.com>
 
 # Bail out early if NODE_VERSION is not provided
