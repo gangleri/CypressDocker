@@ -1,5 +1,4 @@
 FROM cypress/browsers:node13.3.0-chrome-79-ff70
-docker pull cypress/browsers:node13.3.0-chrome-79-ff70
 
 MAINTAINER Shay Doherty <shaydmusik@gmail.com>
 
